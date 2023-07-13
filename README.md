@@ -10,19 +10,29 @@
 
 ## :page_with_curl: Sobre
 
-Este é o primeiro desafio da trilha de ReactJS do Ignite, onde desenvolvi uma aplicação de controle de tarefas no estilo to-do list. Trata-se de uma aplicação web de uma lista de tarefas. Nela, o usuário pode adicionar as tarefas a serem realizadas e atualizar o status das mesmas conforme forem executadas (marcar e desmarcar uma tarefa como concluída). Poderá colocar na lista quantos itens quiser, além de marcá-los como concluídos, mudá-los de posição ou deletá-los.
+O Ignite Timer é uma aplicação que contém um timer para ajudar na organização do tempo de execução de tarefas. Nela, o usuário adiciona a tarefa a ser realizada, o tempo que deseja gastar para executá-la e o timer inicia a contagem do tempo proposto. 
+A aplicação contém, também, um histórico, onde ficam todas as as tarefas realizadas pelo usuário. As tarefas do histórico contém status, ficando fácil a identificação, pelo usuário, se a tarefa foi completada, interrompida ou se ainda está em execução. Todas as tarefas ficam salvas no LocalStorage do navegador.
+
+
+## 🚀 Projeto
+![Tela1](https://github.com/famalaquias/IgniteTimer/assets/98343640/030f1fb3-69b5-4dfc-b252-ada34bf107b2)
+
+
+![Tela2](https://github.com/famalaquias/IgniteTimer/assets/98343640/c1cef8c8-15c4-4e3e-8d19-96e099e8b340)
+
+
+![Tela3](https://github.com/famalaquias/IgniteTimer/assets/98343640/c7d18caa-a5ee-4ac1-ac4c-bbfc7b6d481a)
 
 
 ## :man_technologist: Habilidades Desenvolvidas
 
 - [x] Criar a estrutura do HTML
 - [x] Criar a estrutura do CSS
-- [x] Adicionar uma nova tarefa
-- [x] Marcar e desmarcar uma tarefa como finalizada
-- [x] Remover uma tarefa da listagem
-- [x] Mostrar o progresso de conclusão das tarefas
-- [x] ID gerado automaticamente pelo UUID 
-- [x] Reagir a interações do usuário utilizando escutadores de eventos
+- [x] Criação de um ciclo (tarefa e tempo)
+- [x] Criação de um contador (coutdown) para monitorar este tempo do ciclo
+- [x] Criação de uma função para interromper um ciclo atual
+- [x] Criação de um status para o ciclo, que pode ser: concluído, em andamento ou interrompido
+- [x] Criação de um histórico com todos os ciclos já realizados
 
 
 ## :hammer_and_wrench: Ferramentas Utilizadas
@@ -30,11 +40,15 @@ Este é o primeiro desafio da trilha de ReactJS do Ignite, onde desenvolvi uma a
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [HTML5](https://biblioteca.wiki/html5/)
-- [CSS](https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/CSS_basics)
+- [StyledComponents](https://styled-components.com/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [ReactJS](https://react.dev/)
+- [React Hook Form)[https://react-hook-form.com/]
 - [Vite](https://vitejs.dev/)
-- [UUID](https://www.npmjs.com/package/uuid)
+- [Zod](https://zod.dev/)
+- [date-fns](https://date-fns.org/)
+- [ImmerJs](https://immerjs.github.io/immer/)
+- [PhosphorIcons](https://phosphoricons.com/)
 
 
 ## ⚙ Instalação
@@ -42,7 +56,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Clone o projeto para o local desejado em seu computador.
 
 ```bash
-$ git clone git@github.com:famalaquias/ToDoList.git
+$ git clone git@github.com:famalaquias/IgniteTimer.git
 ```
 
 ___
@@ -51,7 +65,7 @@ ___
 
 ```bash
 # Navegue até o diretório 
-$ cd ToDoList
+$ cd IgniteTimer
 
 # Instale as dependências necessárias
 $ npm install
