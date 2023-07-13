@@ -43,7 +43,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [StyledComponents](https://styled-components.com/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [ReactJS](https://react.dev/)
-- [React Hook Form][https://react-hook-form.com/]
+- [React Hook Form](https://react-hook-form.com/]
 - [Vite](https://vitejs.dev/)
 - [Zod](https://zod.dev/)
 - [date-fns](https://date-fns.org/)
